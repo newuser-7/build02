@@ -8,9 +8,18 @@
      <maven.compiler.target>17</maven.compiler.target>
 </properties>
 <build>
-      <sourceDirectory>src</sourceDirectory>
+	<sourceDirectory>src/main</sourceDirectory>
+	<testSourceDirectory>src/test</testSourceDirectory>
 </build>
 <packaging>jar</packaging>
 <name>My Integration Test</name>
+<dependencies>
+<dependency>
+     <groupId>junit</groupId>
+     <artifactId>junit</artifactId>
+     <version>4.12</version>
+     <scope>test</scope>
+</dependency>
+</dependencies>
 </project>
 

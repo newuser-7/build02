@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: DummyTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec <<< FAILURE! - in DummyTest
+test(DummyTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: Test intentionaly failing
+	at org.junit.Assert.fail(Assert.java:88)
+	at DummyTest.test(DummyTest.java:6)
+
