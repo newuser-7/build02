@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DummyTest" time="0" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="HelloWorldHelperTest" time="0.001" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -57,5 +57,6 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.stdout.encoding" value="UTF-8"/>
   </properties>
-  <testcase name="test" classname="DummyTest" time="0"/>
+  <testcase name="testEnglish" classname="HelloWorldHelperTest" time="0.001"/>
+  <testcase name="testSpanish" classname="HelloWorldHelperTest" time="0"/>
 </testsuite>
