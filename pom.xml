@@ -10,6 +10,13 @@
 <build>
 	<sourceDirectory>src/main</sourceDirectory>
 	<testSourceDirectory>src/test</testSourceDirectory>
+<plugins>
+<plugin>
+<groupId>org.sonarsource.scanner.maven</groupId>
+<artifactId>sonar-maven-plugin</artifactId>
+<version>3.6.0.1398</version>
+</plugin>
+</plugins>
 </build>
 <packaging>jar</packaging>
 <name>My Integration Test</name>
@@ -21,12 +28,5 @@
      <scope>test</scope>
 </dependency>
 </dependencies>
-<plugins>
-<plugin>
-<groupId>org.sonarsource.scanner.maven</groupId>
-<artifactId>sonar-maven-plugin</artifactId>
-<version>3.6.0.1398</version>
-</plugin>
-</plugins>
 </project>
 
